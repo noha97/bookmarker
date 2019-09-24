@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bookmarker</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="bookmarker-header pt-5 pb-4 text-center">
+                <h1>Bookmarker</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <hr>
+            <div class="bookmarker-content text-center">
+                <h2 class="mb-4">Bookmark your favorite sites</h2>
+                <span>Site Name</span>
+                <input class="form-control my-3" placeholder="Bookmark Name" id="nameInp">
+                <span>Site URL</span>
+                <input class="form-control my-3" placeholder="Website URL" id="urlInp">
+                <button class="btn btn-danger my-3" id="submit">Submit</button>
+            </div>
+            <hr>
+
+
+            <div class="row" id="markerRow">
+            </div>
+            <hr>
+        </div>
+
+
+    </section>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

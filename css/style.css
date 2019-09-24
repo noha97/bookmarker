@@ -1,0 +1,48 @@
+hr{
+   background-color: #999;
+}
+.bookmarker-header h1{
+    color:rgb(97, 93, 93);
+    font-size: 33px;
+    font-weight: 700;
+}
+.bookmarker-content
+{
+    background-color: #EEE;
+    padding: 30px;
+}
+.bookmarker-content h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(97, 93, 93);
+}
+.bookmarker-content span{
+    font-weight: bold;
+    color:rgb(97, 93, 93);
+}
+.bookmarker-item
+{
+    background-image: linear-gradient(#EEE,#FFF);
+    padding: 30px;
+}
+footer h5
+{
+    font-weight: 400;
+    cursor: pointer;
+}
+footer h5:hover
+{
+  color: red !important;
+}
+@media (max-width:768px)
+{
+    .bookmarker-item .item-head
+    {
+        width: 60% !important;
+    }
+    .bookmarker-item .item-event
+    {
+         width: 40% !important;
+        display: flex;
+    }
+}
